@@ -1,7 +1,3 @@
-npx create-react-app kml-viewer
-cd kml-viewer
-npm install react-leaflet leaflet xml2js
-
 import React, { useState } from 'react';
 import { MapContainer, TileLayer, Polyline } from 'react-leaflet';
 import { parseStringPromise } from 'xml2js';
